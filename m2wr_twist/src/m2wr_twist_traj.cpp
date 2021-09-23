@@ -8,7 +8,7 @@ int main(int argc, char **argv)
   ros::NodeHandle nh;
   ros::Rate loop_rate(5);
 
-  ros::Publisher traj_pub = nh.advertise<geometry_msgs::Twist>("cmd_vel", 1000);
+  ros::Publisher traj_pub = nh.advertise<geometry_msgs::Twist>("cmd_vel", 1);
 
   geometry_msgs::Twist vel;
   vel.linear.x = 1.0;
