@@ -23,7 +23,7 @@
         <commandTopic>cmd_vel</commandTopic>
         <odometryTopic>odom</odometryTopic>
         <odometryFrame>odom</odometryFrame>
-        <robotBaseFrame>link_chassis</robotBaseFrame>
+        <robotBaseFrame>base_link</robotBaseFrame>
         <publishWheelTF>false</publishWheelTF>
         <publishWheelJointState>false</publishWheelJointState>
         <rosDebugLevel>na</rosDebugLevel>
