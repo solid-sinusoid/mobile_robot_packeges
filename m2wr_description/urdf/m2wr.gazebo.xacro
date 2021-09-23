@@ -10,7 +10,7 @@
       <material>Gazebo/Blue</material>
     </gazebo>
 
-    <!--gazebo>
+    <gazebo>
       <plugin filename="libgazebo_ros_diff_drive.so" name="differential_drive_controller">
         <legacyMode>false</legacyMode>
         <alwaysOn>true</alwaysOn>
@@ -33,7 +33,7 @@
         <odometrySource>world</odometrySource>
         <publishTf>1</publishTf>
       </plugin>
-    </gazebo-->
+    </gazebo>
 
     <!--gazebo reference="camera_link">
       <material>Gazebo/Green</material>
