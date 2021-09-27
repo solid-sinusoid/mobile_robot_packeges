@@ -11,5 +11,5 @@
 
 Выполнить данную команду в каталог `~/catkin_ws/src`
 ```sh
-$ git clone https://github.com/solid-sinusoid/mobile_robot_packeges.git
+git clone https://github.com/solid-sinusoid/mobile_robot_packeges.git
 ```
